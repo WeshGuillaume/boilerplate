@@ -1,0 +1,7 @@
+type User {
+  id: String
+}
+
+extend type Query {
+  viewer: User
+}
